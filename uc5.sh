@@ -36,7 +36,7 @@ echo "***First Player***"
                                 break
                         else
                             let MovesCount1+=n
-                            let move1+=1
+                            let move1+=n
                             continue
                         fi
                 elif [[ $choice1 == 'Snake' ]]
@@ -49,7 +49,7 @@ echo "***First Player***"
                               let  MovesCount1=0
                         else
                            let MovesCount1-=n
-                           let move1+=1
+                           let move1+=n
                         fi
                 elif [[ $choice1 == 'NoPlay' ]]
                 then
@@ -83,7 +83,7 @@ echo "***First Player***"
                                 break
                         else
                             let MovesCount2+=n
-                            let move2+=1
+                            let move2+=n
                             continue
                         fi
                 elif [[ $choice2 == 'Snake' ]]
@@ -96,7 +96,7 @@ echo "***First Player***"
                               let  MovesCount2=0
                         else
                            let MovesCount2-=n
-                           let move2+=1
+                           let move2+=n
                         fi
                 elif [[ $choice2 == 'NoPlay' ]]
                 then
